@@ -26,7 +26,6 @@ Website : [Lanyang Campus](http://www.lanyang.tku.edu.tw/)
 
 * **LckySndays** - [Github](https://github.com/LckySndays) - [Email](mailto:403850398@s03.tku.edu.tw)
 
-See also the list of [contributors](https://github.com/LckySndays/LanyangAPI/graphs/contributors) who participated in this project.
 
 ## License
 
