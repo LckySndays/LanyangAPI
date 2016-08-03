@@ -14,6 +14,9 @@ API for later use in Tamkang University Lanyang Campus IIT Senior Project 2017
 
 * PHP
 
+## To Do List
+
+* Transform the result data (array format) into JSON Rest API format 
 
 ## Authors
 
