@@ -1,5 +1,6 @@
 # Lanyang API - Unofficial Tamkang University API 
 ![license badge](https://img.shields.io/badge/License-MIT%20License-blue.svg)
+![language badge](https://img.shields.io/badge/Language-PHP-orange.svg)
 ![release badge](https://img.shields.io/badge/Release-0.0.1-green.svg)
 
 ![Tamkang University Logo](https://github.com/LckySndays/LanyangAPI/blob/master/Tamkang_University_logo.png)
@@ -11,10 +12,6 @@ API for later use in Tamkang University Lanyang Campus IIT Senior Project 2017
 
 Website : [Main University](http://www.tku.edu.tw/)<br>
 Website : [Lanyang Campus](http://www.lanyang.tku.edu.tw/)
-
-## Language
-
-* PHP
 
 ## What have done
 
