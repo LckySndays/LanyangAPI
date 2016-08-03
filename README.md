@@ -9,10 +9,17 @@
 
 API for later use in Tamkang University Lanyang Campus IIT Senior Project 2017
 
+Website : [Main University](http://www.tku.edu.tw/)<br>
+Website : [Lanyang Campus](http://www.lanyang.tku.edu.tw/)
 
 ## Language
 
 * PHP
+
+## What have done
+
+* Parsing student basic information
+* Parsing student detailed score information
 
 ## To Do List
 
