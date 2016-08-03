@@ -1,10 +1,10 @@
-# Lanyang API - Unoffcial Tamkang University API
+# Lanyang API - Unofficial Tamkang University API
 
 ![alt tag](https://upload.wikimedia.org/wikipedia/zh/thumb/d/db/Tamkang_University_logo.svg/772px-Tamkang_University_logo.svg.png)
 
 ## Description
 
-API for use in IIT Senior Project
+API for later use in Tamkang University Lanyang Campus IIT Senior Project 2017
 
 
 ## Language
