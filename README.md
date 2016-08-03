@@ -1,6 +1,6 @@
 # Lanyang API - Unofficial Tamkang University API
 
-![alt tag](https://upload.wikimedia.org/wikipedia/zh/thumb/d/db/Tamkang_University_logo.svg/772px-Tamkang_University_logo.svg.png)
+![Tamkang University Logo](https://github.com/LckySndays/LanyangAPI/blob/master/Tamkang_University_logo.png)
 
 ## Description
 
