@@ -1,6 +1,9 @@
-# Lanyang API - Unofficial Tamkang University API
+# Lanyang API - Unofficial Tamkang University API 
+![license badge](https://img.shields.io/badge/License-MIT%20License-blue.svg)
+![release badge](https://img.shields.io/badge/Release-0.0.1-green.svg)
 
 ![Tamkang University Logo](https://github.com/LckySndays/LanyangAPI/blob/master/Tamkang_University_logo.png)
+
 
 ## Description
 
