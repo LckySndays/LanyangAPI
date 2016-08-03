@@ -221,6 +221,7 @@
 		foreach($dom->getElementsByTagName('td') as $link) {	 
 			if(strpos($link->textContent, '共') !== false){
 				$totalRow = intval(preg_replace('/[^0-9]+/', '', $link->textContent), 10);
+				$courseTotal = $totalRow;
 				break;
 			}
 		}
@@ -324,6 +325,7 @@
 			"creditAcquiredSemester" 	=> $creditAcquiredSemester,
 			"scoreAvgSemester" 			=> $scoreAvgSemester,
 			"classRank"					=> $classRank,
+			"courseTotal"				=> $courseTotal,
 			"courseDept"				=> $courseDept,
 			"courseName"				=> $courseName,
 			"coursePeriod"				=> $coursePeriod,
@@ -352,23 +354,23 @@
 	學年 	= $academicYear				實得學分 		= $creditAcquiredSemester	學業總平均		= $scoreAvgOverall
 	學期		= $semester					累計實得		= $creditAcquiredTotal		班級總排名		= $classRankOverall
 	所系年班	= $department				學期學業平均	= $scoreAvgSemester			系組總排名		= $deptRankOverall
-	操行成績	= $scoreBehavior			修業狀況		= $learningStatus			GPA			= $gpa
+	操行成績	= $scoreBehavior			修業狀況		= $learningStatus			GPA				= $gpa
 	總修學分	= $creditTotalSemester		各科成績		= $dataLink or $urlLink
 	*/
 	
 	/*
-	系級		= $courseDept				必修學分		= $creditTotalElective
+	系級		= $courseDept				必修學分		= $creditTotalElective		TotalCourse/smt	= $courseTotal
 	科目名稱	= $courseName				選修學分		= $creditTotalOptional
 	學期序	= $coursePeriod				總修學分		= $creditTotalSemester
 	班別		= $courseClass				實得學分		= $creditAcquiredSemester
 	群別		= $courseGroup				學期學業平均	= $scoreAvgSemester
 	選必修	= $courseElectOpt			班排名		= $classRank
-	學分		= $courseCredit
+	學分		= $courseCredit				
 	成績		= $courseScore
 	成績狀況	= $scoreDescription
 	*/
 	
-	/*
+	
 	echo "<h1 style='text-align: center'>Overview</h1>";
 	
 	echo "Overall Score Average = " 		. $array["scoreAvgOverall"] 	. "<br>"; 
@@ -403,8 +405,9 @@
 		echo "Credit Acquired = " 			. $array["$array_name"]["creditAcquiredSemester"] 	. "<br>";
 		echo "Score Average = " 			. $array["$array_name"]["scoreAvgSemester"] 		. "<br>";
 		echo "Ranking = "					. $array["$array_name"]["classRank"] 				. "<br>";
+		echo "Total Course = "				. $array["$array_name"]["courseTotal"] 				. "<br>";
 		
-		for($c = 0; $c<$totalRow; $c++){
+		for($c = 0; $c<$array["$array_name"]["courseTotal"]; $c++){
 			echo "<br>";
 			echo "Department = " 		. $array["$array_name"]["courseDept"]["$c"] 		. "<br>";
 			echo "Course Name = " 		. $array["$array_name"]["courseName"]["$c"] 		. "<br>";
@@ -418,5 +421,5 @@
 			echo "<br>";
 		}
 	}
-	*/
+	
 ?>
