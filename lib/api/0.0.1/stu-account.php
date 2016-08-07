@@ -2,6 +2,7 @@
 	$filename 		= "stu-account.php";
 	$version		= "0.0.1";
 	$dependencies	= "none";
+	$description	= "";
 
 	function login($username, $password){
 		
@@ -25,7 +26,8 @@
 			"information"	=> array(	
 				"filename" 				=> $GLOBALS['filename'], 
 				"version" 				=> $GLOBALS['version'],
-				"dependencies" 			=> $GLOBALS['dependencies']
+				"dependencies" 			=> $GLOBALS['dependencies'],
+				"description" 			=> $GLOBALS['description']
 				),
 			"result"		=> array(
 				"username" 				=> $username, 
