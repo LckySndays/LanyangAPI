@@ -1,21 +1,35 @@
 <html>
 	<head>
-		<title>API TestPages</title>>
+		<title>Lanyang API Test-Pages</title>
+		<style>
+			.container {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				-moz-transform: translateX(-50%) translateY(-50%);
+				-webkit-transform: translateX(-50%) translateY(-50%);
+				transform: translateX(-50%) translateY(-50%);
+			}
+		</style>
 	</head>
 
 	<body>
 
-		<form action="../lib/api/0.0.1/lanyang-api.php" method="post">
-		
-			Action:
-			<input type="radio" name="action" value="validate" checked> validate
-			<input type="radio" name="action" value="stu-info"> stu-info
-			<br>
-			Student ID: <input type="text" name="uid"><br>
-			Student Password: <input type="password" name="pass"><br>
-			<input type="submit">
+		<div class="container">
+
+			<h1>Lanyang API - Test-Pages</h1>
+			<form action="lib/api/0.0.1/lanyang-api.php" method="post">
 			
-		</form>
+				Action:
+				<input type="radio" name="action" value="validate" checked> validate
+				<input type="radio" name="action" value="stu-info"> stu-info
+				<br>
+				Student ID : <input type="text" name="uid"><br>
+				Student Password : <input type="password" name="pass"><br>
+				<input type="submit">
+
+			</form>
+		</div>
 
 	</body>
 </html>
