@@ -3,7 +3,7 @@
 	$filename 		= "stu-info.php";
 	$version		= "0.0.1";
 	$dependencies	= "stu-account.php";
-	$description	= "";
+	$description	= "print out student basic information data";
 
 	function parse_stu_info($username, $password){
 		
@@ -141,7 +141,8 @@
 				"information"	=> array(	
 					"filename" 				=> $GLOBALS['filename'], 
 					"version" 				=> $GLOBALS['version'],
-					"dependencies" 			=> $GLOBALS['dependencies']
+					"dependencies" 			=> $GLOBALS['dependencies'],
+					"description" 			=> $GLOBALS['description']
 					),
 				"result"		=> array(
 					"error"					=> "Not Validated"

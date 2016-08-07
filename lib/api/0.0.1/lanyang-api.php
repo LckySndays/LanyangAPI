@@ -32,6 +32,17 @@ if ($action == "stu-info"){
 	}
 }
 
+if ($action == "stu-score"){
+	include("stu-score.php");
+
+	if(!isset($_POST['uid']) || !isset($_POST['pass'])){
+		$status = "Fail";
+	}else{
+		$status = "OK";
+		$response =  parse_stu_score($_POST['uid'], $_POST['pass']);
+	}
+}
+
 $json = array(
 	"action"		=> $action,
 	"timestamp"		=> date("Y-m-d H:i:s"),

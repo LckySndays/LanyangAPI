@@ -2,7 +2,7 @@
 	$filename 		= "stu-account.php";
 	$version		= "0.0.1";
 	$dependencies	= "none";
-	$description	= "";
+	$description	= "validate student account credential";
 
 	function login($username, $password){
 		
