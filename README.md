@@ -23,6 +23,7 @@ Website : [Lanyang Campus](http://www.lanyang.tku.edu.tw/)
 ## To Do List
 
 * Transform the result data (array format) into JSON Rest API format 
+* Reconstruct the whole API format 
 
 ## Authors
 
