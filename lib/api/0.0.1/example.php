@@ -19,7 +19,7 @@
 	<html>
 	<body>
 
-	<form action="https://lanyang-api.herokuapp.com/" method="post">
+	<form action="../lib/api/0.0.1/lanyang-api.php" method="post">
 	
 	Action:
 	<input type="radio" name="action" value="validate" checked> validate
