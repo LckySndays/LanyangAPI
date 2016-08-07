@@ -10,7 +10,7 @@
 
 API for later use in Tamkang University Lanyang Campus IIT Senior Project 2017/2018
 
-Demo : [https://lckysndays.github.io/LanyangAPI/](https://lckysndays.github.io/LanyangAPI/)
+Demo : [https://lanyang-api.herokuapp.com/](https://lanyang-api.herokuapp.com/)
 
 Website : [Main University](http://www.tku.edu.tw/)<br>
 Website : [Lanyang Campus](http://www.lanyang.tku.edu.tw/)
